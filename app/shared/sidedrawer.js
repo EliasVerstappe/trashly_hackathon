@@ -13,3 +13,4 @@ exports.onContact = function() { traverse('contactus/contactus'); }
 exports.onProjects = function() { traverse('projects/overview/overview'); }
 exports.onHome = function() { traverse('home/home'); }
 exports.onReward = function() { traverse('rewards/rewards'); }
+exports.onScanTrash = function() { traverse('scan_trash/scan_trash'); }
