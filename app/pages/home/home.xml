@@ -19,7 +19,7 @@
                 </FlexboxLayout>
                 <Label text="Open up the sideBar (swipe from left-side of the screen) to have some interaction." class="labelText" textWrap="true" />
                 <Label text="This is an application written by Michiel Meyfroodt." class="labelText" textWrap="true" />
-                
+                <Label class="icon" text="&#xe9ad;"/>
             </StackLayout> 
         </sd:RadSideDrawer.mainContent>
 
