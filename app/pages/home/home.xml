@@ -3,6 +3,7 @@
     <ActionBar>
         <Image src="res://trashly_logo_noslogan_white" stretch="none" class="action-image"></Image>
     </ActionBar>
+    
 
     <sd:RadSideDrawer id="sideDrawer">
 

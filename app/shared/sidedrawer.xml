@@ -7,5 +7,6 @@
                 <Button style="color: white" text="Ranking" tap="onRanking" class="sidedrawer-list-item-text" />
                 <Button style="color: white" text="Scan vuilbak" tap="onScanTrash" class="sidedrawer-list-item-text" />
                 <Button style="color: white" text="Beloningen" tap="onReward" class="sidedrawer-list-item-text" />
+                <Button style="color: white" text="Map" tap="onMap" class="sidedrawer-list-item-text" />
         </StackLayout>
 </StackLayout>
