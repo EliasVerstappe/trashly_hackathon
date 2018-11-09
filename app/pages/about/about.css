@@ -1,7 +1,8 @@
-.About-title #About-label {
+.About-title {
     font-size: 32px;
     color: black;
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
+    font-family: AristotelicaSmallCaps-Regular;
 }

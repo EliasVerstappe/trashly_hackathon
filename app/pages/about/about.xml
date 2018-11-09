@@ -14,7 +14,7 @@
             
             <StackLayout>
                 <StackLayout class="About-title">
-                    <Label id="About-label" text="About us" textWrap="true" />
+                    <Label  text="About us" textWrap="true" />
                 </StackLayout>
 
                 <StackLayout>
