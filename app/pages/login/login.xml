@@ -1,0 +1,41 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" xmlns:customControls="shared" xmlns:sd="nativescript-ui-sidedrawer" loaded="pageLoaded">
+
+    <ActionBar title="Trashly" />
+
+    <sd:RadSideDrawer id="sideDrawer">
+
+        <!-- side drawer content -->
+        <sd:RadSideDrawer.drawerContent>
+            <customControls:sidedrawer />
+        </sd:RadSideDrawer.drawerContent>
+
+        <!-- The main content -->
+        <sd:RadSideDrawer.mainContent>
+            <StackLayout>
+                <Image class="resize" alignSelf="center" src="~/images/trashly_logo.png" stretch="none"></Image>
+
+                <StackLayout class="form">
+
+                    <StackLayout class="input-field">
+                        <Label text="Login" class="label font-weight-bold m-b-5" />
+                        <TextField class="input" />
+                        <StackLayout class="hr-light"></StackLayout>
+                    </StackLayout>
+
+                    <StackLayout class="input-field">
+                        <Label text="Password" class="label font-weight-bold m-b-5" />
+                        <TextField secure="true" class="input" />
+                        <StackLayout class="hr-light"></StackLayout>
+                    </StackLayout>
+
+                    <Button text="Log In" class="btn btn-primary"></Button>
+                </StackLayout>
+            </StackLayout>
+
+            
+
+        </sd:RadSideDrawer.mainContent>
+
+    </sd:RadSideDrawer>
+
+</Page>
