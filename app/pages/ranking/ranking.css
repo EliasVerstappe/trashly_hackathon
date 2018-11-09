@@ -15,5 +15,11 @@
     padding : 10px;
     font-size : 15px;
     color :rgb(0, 174, 255);
+}
 
+.number{
+    padding : 10px;
+    font-size : 15px;
+    font-family: serif;
+    color :rgb(0, 174, 255);
 }
