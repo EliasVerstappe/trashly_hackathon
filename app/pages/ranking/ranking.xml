@@ -1,0 +1,105 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" xmlns:customControls="shared" xmlns:sd="nativescript-ui-sidedrawer" loaded="pageLoaded">
+
+    <ActionBar title="Ranking" />
+
+    <sd:RadSideDrawer id="sideDrawer">
+
+        <!-- side drawer content -->
+        <sd:RadSideDrawer.drawerContent>
+            <customControls:sidedrawer />
+        </sd:RadSideDrawer.drawerContent>
+
+        <!-- The main content -->
+        <sd:RadSideDrawer.mainContent>
+            <ScrollView>
+                <StackLayout>
+                    <GridLayout rows="*,*,*,*,*,*,*,*" columns="*,*,*">
+                        <StackLayout row="0" col="0">
+                            <Label text="Rank" textWrap="true" class="ranktitle"/>
+                        </StackLayout>
+                        <StackLayout row="0" col="1">
+                            <Label text="Nickname" textWrap="true" class="ranktitle"/>
+                        </StackLayout>
+                        <StackLayout row="0" col="2">
+                            <Label text="Number of points" textWrap="true" class="ranktitle"/>
+                        </StackLayout>
+
+                        <StackLayout row="1" col="0">
+                            <Label text=""  text ="" textWrap="true" class="rankspace"/>
+                        </StackLayout>
+                        <StackLayout row="1" col="1">
+                            <Label text="" textWrap="true" class="rankspace"/>
+                        </StackLayout>
+                        <StackLayout row="1" col="2">
+                            <Label text="" textWrap="true" class="rankspace"/>
+                        </StackLayout>
+
+                        <StackLayout row="2" col="0">
+                            <Label text="1" textWrap="true" class="rankvalue"/>
+                        </StackLayout>
+                        <StackLayout row="2" col="1">
+                            <Label text="Michiel" textWrap="true" class="rankvalue"/>
+                        </StackLayout>
+                        <StackLayout row="2" col="2">
+                            <Label text="60" textWrap="true" class="rankvalue"/>
+                        </StackLayout>
+
+                        <StackLayout row="3" col="0">
+                            <Label text="2" textWrap="true" class="rankvalue"/>
+                        </StackLayout>
+                        <StackLayout row="3" col="1">
+                            <Label text="Steve" textWrap="true" class="rankvalue"/>
+                        </StackLayout>
+                        <StackLayout row="3" col="2">
+                            <Label text="56" textWrap="true" class="rankvalue"/>
+                        </StackLayout>
+
+                        <StackLayout row="4" col="0">
+                            <Label text="3" textWrap="true" class="rankvalue"/>
+                        </StackLayout>
+                        <StackLayout row="4" col="1">
+                            <Label text="Elias" textWrap="true" class="rankvalue"/>
+                        </StackLayout>
+                        <StackLayout row="4" col="2">
+                            <Label text="50" textWrap="true" class="rankvalue"/>
+                        </StackLayout>
+
+                        <StackLayout row="5" col="0">
+                            <Label text="4" textWrap="true" class="rankvalue"/>
+                        </StackLayout>
+                        <StackLayout row="5" col="1">
+                            <Label text="Daan" textWrap="true" class="rankvalue"/>
+                        </StackLayout>
+                        <StackLayout row="5" col="2">
+                            <Label text="45" textWrap="true" class="rankvalue"/>
+                        </StackLayout>
+
+                        <StackLayout row="6" col="0">
+                            <Label text="5" textWrap="true" class="rankvalue"/>
+                        </StackLayout>
+                        <StackLayout row="6" col="1">
+                            <Label text="Emiel" textWrap="true" class="rankvalue"/>
+                        </StackLayout>
+                        <StackLayout row="6" col="2">
+                            <Label text="23" textWrap="true" class="rankvalue"/>
+                        </StackLayout>
+
+                        <StackLayout row="7" col="0">
+                            <Label text="6" textWrap="true" class="rankvalue"/>
+                        </StackLayout>
+                        <StackLayout row="7" col="1">
+                            <Label text="Bert" textWrap="true" class="rankvalue"/>
+                        </StackLayout>
+                        <StackLayout row= "7" col="2">
+                            <Label text="12" textWrap="true" class="rankvalue"/>
+                        </StackLayout>
+                    </GridLayout>
+                </StackLayout>
+                        
+            </ScrollView>
+        </sd:RadSideDrawer.mainContent>
+
+    </sd:RadSideDrawer>
+
+</Page>
+
