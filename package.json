@@ -13,6 +13,7 @@
     "repository": "<fill-your-repository-here>",
     "dependencies": {
         "@nstudio/nativescript-camera-plus": "^1.1.1",
+        "nativescript-image-zoom": "^3.0.3",
         "nativescript-sqlite": "^2.2.3",
         "nativescript-theme-core": "~1.0.4",
         "nativescript-ui-sidedrawer": "^4.3.1",

@@ -13,7 +13,7 @@
 
         <!-- The main content -->
         <sd:RadSideDrawer.mainContent>
-            <ScrollView>
+            <ScrollView orientation="horizontal" orientation="vertical">
                 <Image alignSelf="center" src="~/images/map_marker.png" stretch="none"></Image>
             </ScrollView>
         </sd:RadSideDrawer.mainContent>
