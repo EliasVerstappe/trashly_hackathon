@@ -20,12 +20,12 @@
                     <GridLayout rows="*,*,*" columns="*,*">
                         <StackLayout class="stack1" row="0" col="0">
                             <Label text="Kinepolis" textWrap="true" />
-                            <Image src="res://kinepolis2" stretch="aspectFit" />
+                            <Image src="res://kinepolis5" stretch="aspectFit" />
                         </StackLayout>
 
                         <StackLayout class="stack2" row="0" col="1">
                             <Label text="Bocca" textWrap="true" />
-                            <Image src="res://pasta3" stretch="aspectFit" />
+                            <Image src="res://pasta5" stretch="aspectFit" />
                         </StackLayout>
 
                         <StackLayout class="stack3" row="1" col="0">
