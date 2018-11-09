@@ -1,0 +1,34 @@
+<Page xmlns:Cam="@nstudio/nativescript-camera-plus" xmlns="http://schemas.nativescript.org/tns.xsd" xmlns:customControls="shared" xmlns:sd="nativescript-ui-sidedrawer" loaded="pageLoaded">
+
+    <ActionBar title="Trashly" />
+
+    <sd:RadSideDrawer id="sideDrawer">
+
+        <!-- side drawer content -->
+        <sd:RadSideDrawer.drawerContent>
+            <customControls:sidedrawer />
+        </sd:RadSideDrawer.drawerContent>
+
+        <!-- The main content -->
+        <sd:RadSideDrawer.mainContent>
+            <StackLayout>
+                <StackLayout>
+                    
+                </StackLayout>
+                <StackLayout>
+                    <Cam:CameraPlus id="camPlus"
+                        saveToGallery="true"      
+                        showCaptureIcon="true"
+                        showGalleryIcon="true"
+                        showToggleIcon="true"       
+                        showFlashIcon="true"
+                        debug="true">
+                    </Cam:CameraPlus>
+                </StackLayout>
+            </StackLayout>
+        </sd:RadSideDrawer.mainContent>
+
+    </sd:RadSideDrawer>
+
+</Page>
+

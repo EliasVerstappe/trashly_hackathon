@@ -4,6 +4,11 @@
                 <Button style="color: white" text="Home" tap="onHome" class="sidedrawer-list-item-text" />
                 <Button style="color: white" text="About" tap="onAbout" class="sidedrawer-list-item-text" />
                 <Button style="color: white" text="Contact" tap="onContact" class="sidedrawer-list-item-text" />
+<<<<<<< HEAD
                 <Button style="color: white" text="Ranking" tap="onRanking" class="sidedrawer-list-item-text" />
+=======
+                <Button style="color: white" text="Scan Trash" tap="onScanTrash" class="sidedrawer-list-item-text" />
+                <Button style="color: white" text="Rewards" tap="onReward" class="sidedrawer-list-item-text" />
+>>>>>>> c344a77935cfadf1a0bb763bfce33850bf7eaa5a
         </StackLayout>
 </StackLayout>
