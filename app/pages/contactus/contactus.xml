@@ -16,13 +16,13 @@
             <ScrollView>
                 <StackLayout>
                     <StackLayout class="Contact-title">
-                        <Label id="Contact-label" text="Contact us" textWrap="true" />
+                        <Label id="Contact-label" text="Contact" textWrap="true" />
                     </StackLayout>
 
                     <StackLayout class="Contact-content">
-                        <TextField id="Contact-text" hint = "Enter the subject" />
-                        <TextView id="Contact-text" hint = "Enter the message"/>
-                        <Button id="Contact-button" text = "Submit" tap="onTap"/>
+                        <TextField id="Contact-text" hint = "Onderwerp" />
+                        <TextView id="Contact-text" hint = "beschrijving"/>
+                        <Button id="Contact-button" text = "verzenden" tap="onTap"/>
                     </StackLayout>
                 </StackLayout>
             </ScrollView>

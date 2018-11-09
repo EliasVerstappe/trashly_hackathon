@@ -2,12 +2,12 @@
         
         <StackLayout class="sidedrawer-content">
                 <Button style="color: white" text="Home" tap="onHome" class="sidedrawer-list-item-text" />
-                <Button style="color: white" text="About" tap="onAbout" class="sidedrawer-list-item-text" />
+                <Button style="color: white" text="Over" tap="onAbout" class="sidedrawer-list-item-text" />
                 <Button style="color: white" text="Contact" tap="onContact" class="sidedrawer-list-item-text" />
                 <Button style="color: white" text="Ranking" tap="onRanking" class="sidedrawer-list-item-text" />
-                <Button style="color: white" text="Scan Trash" tap="onScanTrash" class="sidedrawer-list-item-text" />
-                <Button style="color: white" text="Trashcan map" tap="onMap" class="sidedrawer-list-item-text" />
-                <Button style="color: white" text="Rewards" tap="onReward" class="sidedrawer-list-item-text" />
+                <Button style="color: white" text="Scan vuilbak" tap="onScanTrash" class="sidedrawer-list-item-text" />
+                <Button style="color: white" text="Beloningen" tap="onReward" class="sidedrawer-list-item-text" />
+                <Button style="color: white" text="Map" tap="onMap" class="sidedrawer-list-item-text" />
                 <Button style="color: white" text="Login" tap="onLogin" class="sidedrawer-list-item-text" />
         </StackLayout>
 </StackLayout>

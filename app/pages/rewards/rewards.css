@@ -1,12 +1,10 @@
 StackLayout {
     padding: 10px;
-    font-size: 20;
 }
 
 .title {
     font-weight: bold;
     color: #093A3E;
-    font-size: 18;
 }
 
 .stack1 {

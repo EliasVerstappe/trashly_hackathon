@@ -18,9 +18,8 @@
                 <FlexboxLayout flexDirection="column-reverse" justifyContent="space-around" alignItems="stretch">
                     <Image alignSelf="center" src="~/images/trashly_logo.png" stretch="none"></Image>
                 </FlexboxLayout>
-                <Label text="Open up the sideBar (swipe from left-side of the screen) to have some interaction." class="labelText" textWrap="true" />
-                <Label text="This is an application written by Michiel Meyfroodt." class="labelText" textWrap="true" />
-                <Label class="icon" text="&#xe9ad;" tap="navigateToTasks"/>
+                <Label text="Open de sidebar (swipe van het linkerdeel van het scherm" class="labelText" textWrap="true" />
+                <Label text="Deze app is geschreven door Michiel Meyfroodt, Elias verstappe en Daan Ver Eecke" class="labelText" textWrap="true" />              
             </StackLayout> 
         </sd:RadSideDrawer.mainContent>
 
