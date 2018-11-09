@@ -17,13 +17,13 @@
                 <StackLayout>
                     <GridLayout rows="*,*,*,*,*,*,*,*" columns="*,*,*">
                         <StackLayout row="0" col="0">
-                            <Label text="Rank" textWrap="true" class="ranktitle"/>
+                            <Label text="Rang" textWrap="true" class="ranktitle"/>
                         </StackLayout>
                         <StackLayout row="0" col="1">
-                            <Label text="Nickname" textWrap="true" class="ranktitle"/>
+                            <Label text="Naam" textWrap="true" class="ranktitle"/>
                         </StackLayout>
                         <StackLayout row="0" col="2">
-                            <Label text="Number of points" textWrap="true" class="ranktitle"/>
+                            <Label text="Punten" textWrap="true" class="ranktitle"/>
                         </StackLayout>
 
                         <StackLayout row="1" col="0">

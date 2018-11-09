@@ -16,11 +16,12 @@
             
             <StackLayout>
                 <StackLayout class="About-title">
-                    <Label  text="About us" textWrap="true" />
+                    <Label  text="Over" textWrap="true" class="title"/>
                 </StackLayout>
 
                 <StackLayout>
-                    <Label text="This is a to do application written by Michiel Meyfroodt" textWrap="true" />
+                    <Label text="Deze app is ontwikkeld op de cityhackaton te Brugge" textWrap="true" class="text"/>
+                    <Label text="Deze app is ontwikkeld door Michiel Meyfroodt, Elias Verstappen en Daan Ver Eecke maar grotendeels door Michiel." textWrap="true" class="text"/>
                 </StackLayout> 
             </StackLayout>        
             

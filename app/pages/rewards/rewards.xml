@@ -16,7 +16,7 @@
             <ScrollView>
 
                 <StackLayout>
-                    <Label text="Our Rewards" textWrap="true" class="title"/>
+                    <Label text="Onze beloningen" textWrap="true" class="title"/>
                     <GridLayout rows="*,*,*" columns="*,*">
                         <StackLayout class="stack1" row="0" col="0">
                             <Label text="Kinepolis" textWrap="true" />
