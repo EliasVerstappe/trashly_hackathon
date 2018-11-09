@@ -12,3 +12,4 @@ exports.onAbout = function() { traverse('about/about'); }
 exports.onContact = function() { traverse('contactus/contactus'); }
 exports.onProjects = function() { traverse('projects/overview/overview'); }
 exports.onHome = function() { traverse('home/home'); }
+exports.onRanking = function() { traverse('ranking/ranking'); }

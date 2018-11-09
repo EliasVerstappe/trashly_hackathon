@@ -1,0 +1,9 @@
+.ranktitle{
+    padding : 10px;
+    font-weight : bold;
+    border-radius : 10px;
+  }
+
+.rankvalue{
+    padding : 10px;
+}
