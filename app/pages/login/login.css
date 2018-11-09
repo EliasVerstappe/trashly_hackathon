@@ -1,0 +1,20 @@
+.page {
+  align-items: center;
+  flex-direction: column;
+}
+
+.form {
+  margin-left: 30;
+  margin-right: 30;
+  flex-grow: 2;
+  vertical-align: middle;
+}
+
+.logo {
+  width: 60%;
+}
+
+.resize {
+  width: 400px;
+  height: auto;
+}
