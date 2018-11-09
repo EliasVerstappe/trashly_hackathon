@@ -6,6 +6,7 @@
                 <Button style="color: white" text="Contact" tap="onContact" class="sidedrawer-list-item-text" />
                 <Button style="color: white" text="Ranking" tap="onRanking" class="sidedrawer-list-item-text" />
                 <Button style="color: white" text="Scan Trash" tap="onScanTrash" class="sidedrawer-list-item-text" />
+                 <Button style="color: white" text="Trashcan map" tap="onMap" class="sidedrawer-list-item-text" />
                 <Button style="color: white" text="Rewards" tap="onReward" class="sidedrawer-list-item-text" />
         </StackLayout>
 </StackLayout>

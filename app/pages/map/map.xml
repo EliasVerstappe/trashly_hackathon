@@ -1,0 +1,24 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" xmlns:customControls="shared" xmlns:sd="nativescript-ui-sidedrawer" loaded="pageLoaded">
+
+    <ActionBar>
+        <Image src="res://trashly_logo_noslogan_white" stretch="none" class="action-image"></Image>
+    </ActionBar>
+
+    <sd:RadSideDrawer id="sideDrawer">
+
+        <!-- side drawer content -->
+        <sd:RadSideDrawer.drawerContent>
+            <customControls:sidedrawer />
+        </sd:RadSideDrawer.drawerContent>
+
+        <!-- The main content -->
+        <sd:RadSideDrawer.mainContent>
+            <ScrollView>
+                <Image alignSelf="center" src="~/images/map_marker.png" stretch="none"></Image>
+            </ScrollView>
+        </sd:RadSideDrawer.mainContent>
+
+    </sd:RadSideDrawer>
+
+</Page>
+
