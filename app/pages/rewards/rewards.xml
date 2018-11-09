@@ -18,32 +18,32 @@
                     <GridLayout rows="*,*,*" columns="*,*">
                         <StackLayout class="stack1" row="0" col="0">
                             <Label text="Kinepolis" textWrap="true" />
-                            <Image src="res://kinepolis" stretch="aspectFit" />
+                            <Image src="res://kinepolis2" stretch="aspectFit" />
                         </StackLayout>
 
                         <StackLayout class="stack2" row="0" col="1">
                             <Label text="Bocca" textWrap="true" />
-                            <Image src="res://pasta2" stretch="aspectFit" />
+                            <Image src="res://pasta3" stretch="aspectFit" />
                         </StackLayout>
 
                         <StackLayout class="stack3" row="1" col="0">
-                            <Label text="KULeuven" textWrap="true" />
-                            <Image src="res://kuleuvengratisopleiding" stretch="aspectFit" />
+                            <Label text="Sushi" textWrap="true" />
+                            <Image src="res://sushi2" stretch="aspectFit" />
                         </StackLayout>
 
                         <StackLayout class="stack4" row="1" col="1">
                             <Label text="Boottochtje" textWrap="true" />
-                            <Image src="res://boottochtje" stretch="aspectFit" />
+                            <Image src="res://beuttocht2" stretch="aspectFit" />
                         </StackLayout>
 
                         <StackLayout class="stack5" row="2" col="0">
                             <Label text="Domino's Pizza" textWrap="true" />
-                            <Image src="res://dominos" stretch="aspectFit" />
+                            <Image src="res://pizza2" stretch="aspectFit" />
                         </StackLayout>
 
                         <StackLayout class="stack6" row="2" col="1">
                             <Label text="Drone" textWrap="true" />
-                            <Image src="res://dreun" stretch="aspectFit" />
+                            <Image src="res://dreun2" stretch="aspectFit" />
                         </StackLayout>
                     </GridLayout>
                 </StackLayout>
