@@ -11,10 +11,6 @@
 
         <!-- The main content -->
         <sd:RadSideDrawer.mainContent>
-            <StackLayout>
-                <StackLayout>
-                    
-                </StackLayout>
                 <StackLayout>
                     <Cam:CameraPlus id="camPlus"
                         saveToGallery="true"      
@@ -25,7 +21,6 @@
                         debug="true">
                     </Cam:CameraPlus>
                 </StackLayout>
-            </StackLayout>
         </sd:RadSideDrawer.mainContent>
 
     </sd:RadSideDrawer>
