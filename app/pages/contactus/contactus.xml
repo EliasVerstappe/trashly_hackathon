@@ -1,0 +1,32 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" xmlns:customControls="shared" xmlns:sd="nativescript-ui-sidedrawer" loaded="pageLoaded">
+
+    <ActionBar title="Contact us" />
+
+    <sd:RadSideDrawer id="sideDrawer">
+        
+        <!-- side drawer content -->
+        <sd:RadSideDrawer.drawerContent>
+            <customControls:sidedrawer />
+        </sd:RadSideDrawer.drawerContent>
+
+        <!-- The main content -->
+        <sd:RadSideDrawer.mainContent>
+            <ScrollView>
+                <StackLayout>
+                    <StackLayout class="Contact-title">
+                        <Label id="Contact-label" text="Contact us" textWrap="true" />
+                    </StackLayout>
+
+                    <StackLayout class="Contact-content">
+                        <TextField id="Contact-text" hint = "Enter the subject" />
+                        <TextView id="Contact-text" hint = "Enter the message"/>
+                        <Button id="Contact-button" text = "Submit" tap="onTap"/>
+                    </StackLayout>
+                </StackLayout>
+            </ScrollView>
+        </sd:RadSideDrawer.mainContent>
+
+    </sd:RadSideDrawer>
+
+</Page>
+

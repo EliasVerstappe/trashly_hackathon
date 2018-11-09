@@ -1,0 +1,34 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" xmlns:customControls="shared" xmlns:sd="nativescript-ui-sidedrawer" loaded="pageLoaded">
+
+    <ActionBar title="About us" />
+
+    <sd:RadSideDrawer id="sideDrawer">
+
+        <!-- side drawer content -->
+        <sd:RadSideDrawer.drawerContent>
+            <customControls:sidedrawer />
+        </sd:RadSideDrawer.drawerContent>
+
+        <!-- The main content -->
+        <sd:RadSideDrawer.mainContent>
+            
+            <StackLayout>
+                <StackLayout class="About-title">
+                    <Label id="About-label" text="About us" textWrap="true" />
+                </StackLayout>
+
+                <StackLayout>
+                    <Label text="This is a to do application written by Michiel Meyfroodt" textWrap="true" />
+                </StackLayout> 
+            </StackLayout>        
+            
+        </sd:RadSideDrawer.mainContent>
+
+    </sd:RadSideDrawer>
+
+</Page>
+
+
+
+
+

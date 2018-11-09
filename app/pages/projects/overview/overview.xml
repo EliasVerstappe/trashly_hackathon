@@ -1,0 +1,44 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" xmlns:customControls="shared" xmlns:sd="nativescript-ui-sidedrawer" loaded="pageLoaded">
+
+    <ActionBar title="Overview">
+            <ActionBar.actionItems>
+                <ActionItem text="New" tap="navigateToCreate" />
+            </ActionBar.actionItems>
+    </ActionBar>
+
+    <sd:RadSideDrawer id="sideDrawer">
+
+        <!-- side drawer content -->
+        <sd:RadSideDrawer.drawerContent>
+            <customControls:sidedrawer />
+        </sd:RadSideDrawer.drawerContent>
+
+        <!-- The main content -->
+        <sd:RadSideDrawer.mainContent>
+            <GridLayout rows="auto, *, auto" columns="*">
+                <StackLayout row="1" col="0" class="content">
+                    <ListView items="{{ projects }}"  loaded="onLoaded" itemLoading="onItemLoading" itemTap="navigateToTasks">
+                        <ListView.itemTemplate>
+                            <StackLayout class="project" >
+                                <StackLayout orientation="horizontal">
+                                    <GridLayout class="listStyle" rows="*" columns="*,*">
+                                        <Image src="{{ image_url }}" class="thumbnail" />
+                                        <Label text="{{ title }}" />
+                                        <Label class="icon" row="0" col="1" text="&#xe9ad;"/>
+                                    </GridLayout>
+                                </StackLayout>
+                            </StackLayout>
+                        </ListView.itemTemplate>
+                    </ListView>
+                </StackLayout>
+            </GridLayout>
+        </sd:RadSideDrawer.mainContent>
+
+    </sd:RadSideDrawer>
+
+</Page>
+
+
+
+
+

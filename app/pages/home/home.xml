@@ -1,0 +1,28 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" xmlns:customControls="shared" xmlns:sd="nativescript-ui-sidedrawer" loaded="pageLoaded">
+
+    <ActionBar title="To Do App" />
+
+    <sd:RadSideDrawer id="sideDrawer">
+
+        <!-- side drawer content -->
+        <sd:RadSideDrawer.drawerContent>
+            <customControls:sidedrawer />
+        </sd:RadSideDrawer.drawerContent>
+
+        <!-- The main content -->
+        <sd:RadSideDrawer.mainContent>
+            <StackLayout>
+                <Label text="Welcome to my ToDo" class="labelTitle" textWrap="true" />
+                <Label text="Open up the sideBar (swipe from left-side of the screen) to have some interaction." class="labelText" textWrap="true" />
+                <FlexboxLayout flexDirection="column-reverse" justifyContent="space-around" alignItems="stretch">
+                    <Image alignSelf="center" src="res://logo" stretch="none"></Image>
+                </FlexboxLayout>
+                <Label text="This is an application written by Michiel Meyfroodt." class="labelText" textWrap="true" />
+                
+            </StackLayout> 
+        </sd:RadSideDrawer.mainContent>
+
+    </sd:RadSideDrawer>
+
+</Page>
+

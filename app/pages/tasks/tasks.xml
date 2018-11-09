@@ -1,0 +1,30 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
+    <Page.actionBar>
+        <ActionBar title="Tasks">
+            <ActionBar.actionItems>
+                <ActionItem text="New" tap="{{ insert }}" />
+            </ActionBar.actionItems>
+        </ActionBar>
+    </Page.actionBar>
+    
+    <StackLayout class="taskStyle">
+        <ListView items="{{ tasks }}">
+        
+        </ListView>
+    </StackLayout>
+    
+    <!-- <StackLayout>
+        <GridLayout class="taskStyle">
+            <ListView items="{{ tasks }}">
+                <ListView.itemTemplate>
+                    <GridLayout class="taskGrid" rows="*" columns="*,*">
+                        <Label row="0" col="0" text="{{ task_name }}" />
+                        <Label class="icon" row="0" col="1" text="&#xe9ad;" />
+                    </GridLayout>
+                </ListView.itemTemplate>
+            </ListView>
+        </GridLayout>
+    </StackLayout>  -->
+ 
+</Page>
+

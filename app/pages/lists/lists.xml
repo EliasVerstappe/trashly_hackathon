@@ -1,0 +1,24 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
+    <Page.actionBar>
+        <ActionBar title="Lists">
+            <ActionBar.actionItems>
+                <ActionItem text="New" tap="{{ insert }}" />
+            </ActionBar.actionItems>
+        </ActionBar>
+    </Page.actionBar>
+
+    <StackLayout>
+        <GridLayout class="listsGrid">
+            <ListView items="{{ lists }}" itemTap="navigateToTasks">
+                <ListView.itemTemplate>
+                    <GridLayout class="listStyle" rows="*" columns="*,*">
+                        <Label row="0" col="0" text="{{ list_name }}" />
+                        <Label class="icon" row="0" col="1" text="&#xe9ad;" tap="{{ remove }}"/>
+                        <!-- <Button row="0" col="1" text="delete" tap="{{ remove }}"/> -->
+                    </GridLayout>
+                </ListView.itemTemplate>
+            </ListView>
+        </GridLayout>
+    </StackLayout>
+    
+</Page>

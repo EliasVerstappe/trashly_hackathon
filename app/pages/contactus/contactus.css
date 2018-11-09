@@ -1,0 +1,29 @@
+.Contact-title #Contact-label {
+    font-size: 32px;
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.Contact-content #Contact-text {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 70%;
+}
+
+.Contact-content #Contact-button {
+    background-color: rgb(0, 174, 255);
+    border-radius: 5;
+    color: white;
+    font-family: FontAwesome;
+    font-size: 24;
+    vertical-align: middle;
+    width: 30%;
+}
+
+.Contact #Contact-button:active {
+    background-color: lightslategray;
+    color:white;
+}

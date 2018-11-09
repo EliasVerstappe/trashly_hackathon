@@ -1,0 +1,12 @@
+<Page xmlns="http://www.nativescript.org/tns.xsd" loaded="onLoaded" navigatedTo="onNavigatedTo">
+    <StackLayout>
+        <Label text="Fill in the fields below to create your project!" textWrap="true" />
+        <TextField hint="Title" text="{{ title }}" />
+        <TextView hint="Description" text="{{ description }}" editable="true" />
+        
+        <Button text="Create" class="btn btn-primary btn active" tap="onCreate" />
+        
+        
+        
+    </StackLayout>
+</Page>
