@@ -1,9 +1,19 @@
 .ranktitle{
     padding : 10px;
     font-weight : bold;
-    border-radius : 10px;
+    font-size : 20px;
+    color : white;
+    background-color : rgb(0, 174, 255);
   }
+
+.rankspace{
+    padding : 5px;
+    font-size : 5px;
+}
 
 .rankvalue{
     padding : 10px;
+    font-size : 15px;
+    color :rgb(0, 174, 255);
+
 }
