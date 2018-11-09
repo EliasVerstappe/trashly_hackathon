@@ -1,5 +1,6 @@
 StackLayout {
     padding: 10px;
+    font-size: 20;
 }
 
 .title {
@@ -9,31 +10,25 @@ StackLayout {
 }
 
 .stack1 {
-    background-color: #093A3E;
     margin: 10px;
 }
 
 .stack2 {
-    background-color: #093A3E;
     margin: 10px;
 }
 
 .stack3 {
-    background-color: #093A3E;
     margin: 10px;
 }
 
 .stack4 {
-    background-color: #093A3E;
     margin: 10px;
 }
 
 .stack5 {
-    background-color: #093A3E;
     margin: 10px;
 }
 
 .stack6 {
-    background-color: #093A3E;
     margin: 10px;
 }

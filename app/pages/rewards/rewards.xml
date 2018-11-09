@@ -23,7 +23,7 @@
 
                         <StackLayout class="stack2" row="0" col="1">
                             <Label text="Bocca" textWrap="true" />
-                            <Image src="res://pasta" stretch="aspectFit" />
+                            <Image src="res://pasta2" stretch="aspectFit" />
                         </StackLayout>
 
                         <StackLayout class="stack3" row="1" col="0">
