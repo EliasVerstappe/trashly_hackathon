@@ -1,0 +1,57 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" xmlns:customControls="shared" xmlns:sd="nativescript-ui-sidedrawer" loaded="pageLoaded">
+
+    <ActionBar title="Trashly" />
+
+    <sd:RadSideDrawer id="sideDrawer">
+
+        <!-- side drawer content -->
+        <sd:RadSideDrawer.drawerContent>
+            <customControls:sidedrawer />
+        </sd:RadSideDrawer.drawerContent>
+
+        <!-- The main content -->
+        <sd:RadSideDrawer.mainContent>
+            <ScrollView>
+
+                <StackLayout>
+                    <Label text="Our Rewards" textWrap="true" class="title"/>
+                    <GridLayout rows="*,*,*" columns="*,*">
+                        <StackLayout class="stack1" row="0" col="0">
+                            <Label text="Kinepolis" textWrap="true" />
+                            <Image src="res://kinepolis" stretch="aspectFit" />
+                        </StackLayout>
+
+                        <StackLayout class="stack2" row="0" col="1">
+                            <Label text="Bocca" textWrap="true" />
+                            <Image src="res://pasta" stretch="aspectFit" />
+                        </StackLayout>
+
+                        <StackLayout class="stack3" row="1" col="0">
+                            <Label text="KULeuven" textWrap="true" />
+                            <Image src="res://kuleuvengratisopleiding" stretch="aspectFit" />
+                        </StackLayout>
+
+                        <StackLayout class="stack4" row="1" col="1">
+                            <Label text="Boottochtje" textWrap="true" />
+                            <Image src="res://boottochtje" stretch="aspectFit" />
+                        </StackLayout>
+
+                        <StackLayout class="stack5" row="2" col="0">
+                            <Label text="Domino's Pizza" textWrap="true" />
+                            <Image src="res://dominos" stretch="aspectFit" />
+                        </StackLayout>
+
+                        <StackLayout class="stack6" row="2" col="1">
+                            <Label text="Drone" textWrap="true" />
+                            <Image src="res://dreun" stretch="aspectFit" />
+                        </StackLayout>
+                    </GridLayout>
+                </StackLayout>
+                        
+            </ScrollView>
+
+        </sd:RadSideDrawer.mainContent>
+
+    </sd:RadSideDrawer>
+
+</Page>
