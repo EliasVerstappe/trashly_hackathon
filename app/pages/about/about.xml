@@ -20,8 +20,8 @@
                 </StackLayout>
 
                 <StackLayout>
-                    <Label text="Deze app is ontwikkeld op de cityhackaton te Brugge" textWrap="true" class="text"/>
-                    <Label text="Deze app is ontwikkeld door Michiel Meyfroodt, Elias Verstappen en Daan Ver Eecke maar grotendeels door Michiel." textWrap="true" class="text"/>
+                    <Label text="Deze app is ontwikkeld op de cityhackaton te Brugge." textWrap="true" class="text"/>
+                    <Label text="Dit werd gerealiseerd door Michiel Meyfroodt, Elias Verstappe en Daan Ver Eecke." textWrap="true" class="text"/>
                 </StackLayout> 
             </StackLayout>        
             
