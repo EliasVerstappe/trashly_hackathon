@@ -1,6 +1,8 @@
 <Page xmlns:Cam="@nstudio/nativescript-camera-plus" xmlns="http://schemas.nativescript.org/tns.xsd" xmlns:customControls="shared" xmlns:sd="nativescript-ui-sidedrawer" loaded="pageLoaded">
 
-    <ActionBar title="Trashly" />
+    <ActionBar>
+        <Image src="res://trashly_logo_noslogan_white" stretch="none" class="action-image"></Image>
+    </ActionBar>
 
     <sd:RadSideDrawer id="sideDrawer">
 
