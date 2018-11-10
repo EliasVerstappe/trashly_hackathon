@@ -20,7 +20,8 @@
                 </FlexboxLayout>
                 <Label text="Open de sidebar (swipe van het linkerdeel van het scherm)" class="labelText" textWrap="true" />
                 <Label text="Deze app is geschreven door Michiel Meyfroodt, Elias verstappe en Daan Ver Eecke" class="labelText" textWrap="true" />  
-                <Label class="icon" text="&#xe9ad;" tap="navigateToTasks"/>            
+                <Button class="icon" text = "Start Scanning! &#xe9ad;" tap="navigateToTasks"/>
+                <!-- <Label class="icon" text="&#xe9ad;" tap="navigateToTasks"/>             -->
             </StackLayout> 
         </sd:RadSideDrawer.mainContent>
 
